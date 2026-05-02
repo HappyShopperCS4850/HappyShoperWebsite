@@ -226,8 +226,75 @@ body[data-page="demo"] .demo-page {
   width: 100%;
 }
 
-body[data-page="demo"] .demo-video-frame {
+body[data-page="demo"] .demo-layout {
   width: min(100%, 1120px);
+  display: grid;
+  gap: 0.75rem;
+}
+
+body[data-page="demo"] .demo-video-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius);
+  background: rgba(12, 9, 17, 0.8);
+  backdrop-filter: blur(14px);
+}
+
+body[data-page="demo"] .demo-video-frame {
+  width: 100%;
+}
+
+body[data-page="demo"] .demo-video-copy {
+  display: grid;
+  gap: 0.12rem;
+  min-width: 0;
+}
+
+body[data-page="demo"] .demo-video-kicker {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+body[data-page="demo"] .demo-video-note {
+  margin-bottom: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+body[data-page="demo"] .demo-youtube-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  background: #cc0000;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 10px 24px rgba(204, 0, 0, 0.24);
+  transition: transform 140ms ease, background-color 140ms ease, border-color 140ms ease;
+}
+
+body[data-page="demo"] .demo-youtube-button svg {
+  width: 1rem;
+  height: 1rem;
+  flex: none;
+}
+
+body[data-page="demo"] .demo-youtube-button:hover,
+body[data-page="demo"] .demo-youtube-button:focus-visible {
+  background: #e00000;
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.16);
 }
 
 body[data-page="demo"] .demo-video-full {
@@ -257,6 +324,12 @@ body[data-page="home"] .lede {
   margin-top: 0.6rem;
   max-width: 64ch;
   font-size: 0.95rem;
+}
+
+body[data-page="documentation"] .hero {
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  padding-block: 2rem 1rem;
 }
 
 .hero {
@@ -370,6 +443,16 @@ h3 {
   color: var(--muted);
 }
 
+.text-link {
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+  color: var(--ink);
+}
+
 .compact-list {
   color: var(--muted);
 }
@@ -390,6 +473,15 @@ h3 {
   border-radius: var(--radius);
   background: var(--surface);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.pdf-reader {
+  width: 100%;
+  height: min(76vh, 860px);
+  min-height: 520px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #0c0911;
 }
 
 .video-frame {
@@ -565,5 +657,21 @@ h3 {
 
   .team-photo {
     width: 64px;
+  }
+
+  .pdf-reader {
+    height: 70vh;
+    min-height: 420px;
+  }
+
+  body[data-page="demo"] .demo-video-banner {
+    inset: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  body[data-page="demo"] .demo-youtube-button {
+    width: 100%;
+    justify-content: center;
   }
 }

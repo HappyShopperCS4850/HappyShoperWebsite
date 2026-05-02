@@ -10,6 +10,7 @@ module.exports = merge(common, {
         { from: 'index.html', to: 'index.html' },
         { from: 'img', to: 'img' },
         { from: 'Media', to: 'Media' },
+        { from: 'PDF', to: 'PDF' },
         { from: 'css', to: 'css' },
         { from: 'documentation.html', to: 'documentation.html' },
         { from: 'demo.html', to: 'demo.html' },
