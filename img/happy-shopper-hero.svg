@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Happy Shopper hero illustration</title>
+  <desc id="desc">Three phone mockups on a dark plum background with magenta, gold, and green interface accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18001f"/>
+      <stop offset="55%" stop-color="#0f0a12"/>
+      <stop offset="100%" stop-color="#09070d"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff12a7"/>
+      <stop offset="100%" stop-color="#7b0f7f"/>
+    </linearGradient>
+    <linearGradient id="screenAlt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff22b2"/>
+      <stop offset="100%" stop-color="#5c0d63"/>
+    </linearGradient>
+    <linearGradient id="screenDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cb087a"/>
+      <stop offset="100%" stop-color="#32103d"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18131d"/>
+      <stop offset="100%" stop-color="#050509"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="680" rx="28" fill="none" stroke="#271632" stroke-width="2"/>
+  <rect x="70" y="74" width="200" height="10" fill="#f4c542"/>
+  <rect x="70" y="96" width="146" height="6" fill="#56c06b" opacity=".9"/>
+  <rect x="930" y="82" width="160" height="8" fill="#ff12a7"/>
+  <rect x="982" y="100" width="108" height="6" fill="#f4c542" opacity=".92"/>
+
+  <!-- Left phone -->
+  <g transform="translate(160 120)">
+    <rect x="0" y="0" width="214" height="420" rx="34" fill="url(#frame)" stroke="#c9c1cc" stroke-width="4"/>
+    <rect x="18" y="14" width="178" height="392" rx="28" fill="url(#screen)"/>
+    <rect x="87" y="8" width="40" height="8" rx="4" fill="#050509"/>
+    <rect x="76" y="22" width="62" height="6" rx="3" fill="#050509" opacity=".92"/>
+    <circle cx="107" cy="86" r="18" fill="none" stroke="#fff" stroke-width="2" opacity=".92"/>
+    <path d="M95 84h24l-2.8 10H98.4z" fill="#fff"/>
+    <rect x="58" y="118" width="96" height="7" rx="3.5" fill="#fff" opacity=".95"/>
+    <rect x="36" y="162" width="142" height="12" rx="6" fill="#f4c542"/>
+    <rect x="36" y="186" width="120" height="12" rx="6" fill="#ff12a7"/>
+    <rect x="36" y="210" width="132" height="12" rx="6" fill="#f4c542" opacity=".9"/>
+    <rect x="54" y="266" width="106" height="30" rx="10" fill="#fff" opacity=".18"/>
+    <rect x="54" y="308" width="106" height="30" rx="10" fill="#fff" opacity=".18"/>
+    <rect x="68" y="366" width="78" height="22" rx="8" fill="#fff"/>
+  </g>
+
+  <!-- Center phone -->
+  <g transform="translate(493 92)">
+    <rect x="0" y="0" width="240" height="468" rx="36" fill="url(#frame)" stroke="#c9c1cc" stroke-width="4"/>
+    <rect x="18" y="16" width="204" height="436" rx="30" fill="url(#screenAlt)"/>
+    <rect x="96" y="8" width="48" height="8" rx="4" fill="#050509"/>
+    <rect x="82" y="22" width="76" height="6" rx="3" fill="#050509" opacity=".92"/>
+    <rect x="54" y="70" width="132" height="10" rx="5" fill="#fff" opacity=".92"/>
+    <rect x="78" y="96" width="84" height="8" rx="4" fill="#fff" opacity=".85"/>
+    <rect x="38" y="136" width="164" height="34" rx="8" fill="#f4c542"/>
+    <rect x="38" y="186" width="164" height="34" rx="8" fill="#ff12a7"/>
+    <rect x="38" y="236" width="164" height="34" rx="8" fill="#f4c542"/>
+    <rect x="38" y="286" width="164" height="34" rx="8" fill="#56c06b"/>
+    <rect x="58" y="358" width="124" height="18" rx="6" fill="#fff"/>
+    <rect x="66" y="390" width="108" height="18" rx="6" fill="#fff" opacity=".78"/>
+  </g>
+
+  <!-- Right phone -->
+  <g transform="translate(828 120)">
+    <rect x="0" y="0" width="214" height="420" rx="34" fill="url(#frame)" stroke="#c9c1cc" stroke-width="4"/>
+    <rect x="18" y="14" width="178" height="392" rx="28" fill="url(#screenDeep)"/>
+    <rect x="87" y="8" width="40" height="8" rx="4" fill="#050509"/>
+    <rect x="76" y="22" width="62" height="6" rx="3" fill="#050509" opacity=".92"/>
+    <circle cx="48" cy="90" r="20" fill="#fff" opacity=".84"/>
+    <circle cx="48" cy="90" r="8" fill="#ff12a7"/>
+    <rect x="82" y="76" width="76" height="10" rx="5" fill="#fff"/>
+    <rect x="82" y="100" width="54" height="8" rx="4" fill="#fff" opacity=".82"/>
+    <rect x="34" y="150" width="138" height="16" rx="7" fill="#ff12a7"/>
+    <rect x="34" y="184" width="154" height="16" rx="7" fill="#f4c542"/>
+    <rect x="34" y="218" width="128" height="16" rx="7" fill="#56c06b"/>
+    <rect x="34" y="252" width="146" height="16" rx="7" fill="#ff12a7"/>
+    <rect x="50" y="320" width="112" height="32" rx="12" fill="#fff"/>
+  </g>
+
+  <rect x="170" y="580" width="860" height="6" fill="#271632"/>
+  <rect x="250" y="600" width="170" height="14" rx="7" fill="#ff12a7"/>
+  <rect x="500" y="600" width="170" height="14" rx="7" fill="#f4c542"/>
+  <rect x="750" y="600" width="170" height="14" rx="7" fill="#56c06b"/>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "short_name": "Happy Shopper",
+  "name": "Happy Shopper Website",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "./?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#17001f",
+  "theme_color": "#17001f"
+}
